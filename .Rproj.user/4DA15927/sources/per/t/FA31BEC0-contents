@@ -1,0 +1,52 @@
+# Daten
+
+---
+
+## Eigenschaften der Daten
+
+* Die Trainingsdaten für KI können meist als Tabellen
+dargestellt werden.
+* Die Tabellenspalten sind die Attribute der zu lernenden Inhalte
+  (Attribut = Eigenschaft)
+* Die Anzahl der Spalten kann sehr große Werte annehmen (100000+).
+
+---
+
+## Unsere Analyse
+
+**Wir verwenden 2 Spalten für Daten und eine als Label**
+
+. . .
+
+2 Spalten = Punkt / Vektor in der Ebene   
+3 Spalten = Punkt / Vektor im Raum  
+4 Spalten bereits nicht mehr vorstellbar!  
+
+---
+
+## Aufgabe
+
+Zeichne nachfolgende Tabelle als *Punktewolke* (=Scatter-Plot)
+
+---
+
+### Ergänze um eine Codierung des Labels
+
+---
+
+
+### Interpretation
+
+Die Punkte*haufen* sind durch eine Gerade trennbar.
+
+. . . 
+
+Erinnerung:
+
+$$y = m \cdot x + t$$
+
+### Auswertung
+
+Punkte über der Geraden gehören zu Menge 1  
+Punkte darunter zu Menge 2
+

@@ -1,0 +1,16 @@
+﻿\begin{tikzpicture}
+\draw[rounded corners](0,0) rectangle ++ (357pt, 269pt);
+
+%\draw(0,0) grid ++ (12,9);
+
+\draw[line width=1mm](4,5) circle (1);
+
+\draw[>=latex,->,line width=1mm](2,5) -- ++ (1,0);
+
+\node at (1,5) [scale=1.5]{Sensor};
+\node at (4,6.9) [scale=1.5]{ \parbox{2cm}{\center Eingangs-neuron}};
+
+\draw[line width=1mm](5,5) -- ++ (10:3);
+\node at (7,5) [scale=1.5, rotate=10]{Axon};
+
+\end{tikzpicture}

@@ -1,0 +1,41 @@
+﻿\begin{tikzpicture}
+\draw[rounded corners](0,0) rectangle ++ (357pt, 269pt);
+
+%\draw(0,0) grid ++ (12,9);
+
+
+
+%\draw[rounded corners, fill=red!50](3,2) rectangle ++(2,6);
+%\draw[rounded corners, fill=green!50](6,2) rectangle ++(2,6);
+
+
+\begin{scope}[yshift=7cm]
+\draw[line width=0.5mm](4,0) circle (0.5) node[scale=2]{4};
+%\draw[>=latex,->,line width=0.5mm](2.5,0) -- ++ (1,0);
+\node at (1.5,0) [scale=1.5]{Zahnlänge};
+\end{scope}
+
+
+\begin{scope}[yshift=3cm]
+\draw[line width=0.5mm](4,0) circle (0.5) node[scale=2]{1};
+%\draw[>=latex,->,line width=0.5mm](2.5,0) -- ++ (1,0);
+\node at (1.5,0) [scale=1.5]{Augengröße};
+\end{scope}
+
+
+
+\begin{scope}[xshift=3cm,yshift=5cm]
+\draw[line width=0.5mm](4,0) circle (0.5);
+\end{scope}
+
+
+%\node at (4,9) [scale=1.5]{ \parbox{2cm}{\center Eingangs-schicht}};
+%\node at (7,9) [scale=1.5]{ \parbox{2cm}{\center Ausgangs-schicht}};
+
+\draw[>=latex, ->,line width=0.5mm,  shorten >= 0.5cm, shorten <=0.50cm  ](4.,7) --  (7,5);
+\draw[>=latex, ->,line width=0.5mm,  shorten >= 0.5cm, shorten <=0.50cm  ](4.,3) --  (7,5);
+\draw[>=latex, ->, line width=0.5mm] (7.5, 5) -- ++(2,0);
+
+\node at (9.5,5) [right,scale=1.5]{Gefährlich?};
+
+\end{tikzpicture}

@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html#was-ist-ein-neuron",
+    "href": "index.html#was-ist-ein-neuron",
+    "title": "Neuronale Netze",
+    "section": "Was ist ein Neuron?",
+    "text": "Was ist ein Neuron?"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Neuronale Netze",
+    "section": "",
+    "text": "Viele Neuronen"
+  },
+  {
+    "objectID": "index.html#umsetzung",
+    "href": "index.html#umsetzung",
+    "title": "Neuronale Netze",
+    "section": "Umsetzung",
+    "text": "Umsetzung\nimport matplotlib.pyplot as plt\nfrom random import random\n\nw1 = 3       # Nur Beispielwerte\nw2 = -2\ns = 10\n\nx1 = float(input(\"x1 eingeben: \"))\nx2 = float(input(\"x2 eingeben: \"))\n\nif w1*x1+w2*x2 &gt;= s:\n  plt.scatter(x1,x2, color=\"green\")\nelse:\n  plt.scatter(x1,x2, color=\"red\")\n\nplt.show()"
+  },
+  {
+    "objectID": "index.html#verbesserte-version",
+    "href": "index.html#verbesserte-version",
+    "title": "Neuronale Netze",
+    "section": "Verbesserte Version",
+    "text": "Verbesserte Version\nimport matplotlib.pyplot as plt\nfrom random import random\n\nw1 = 3\nw2 = -2\ns = 0.5\n\ndef entscheidung(x1, x2):\n    if w1 * x1 + w2 * x2 &gt; s:\n        return \"red\"\n    return \"green\""
+  },
+  {
+    "objectID": "index.html#verbesserte-version-1",
+    "href": "index.html#verbesserte-version-1",
+    "title": "Neuronale Netze",
+    "section": "Verbesserte Version",
+    "text": "Verbesserte Version\nx = []\ny = []\nfarben = []"
+  },
+  {
+    "objectID": "index.html#verbesserte-version-2",
+    "href": "index.html#verbesserte-version-2",
+    "title": "Neuronale Netze",
+    "section": "Verbesserte Version",
+    "text": "Verbesserte Version\nfor i in range(1000):\n    x1 = random()  # Zahlen zwischen 0 und 1\n    x2 = random()\n\n    x.append(x1)\n    y.append(x2)\n    farben.append(entscheidung(x1, x2))"
+  },
+  {
+    "objectID": "index.html#verbesserte-version-3",
+    "href": "index.html#verbesserte-version-3",
+    "title": "Neuronale Netze",
+    "section": "Verbesserte Version",
+    "text": "Verbesserte Version\nplt.scatter(x, y, color=farben)\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "index.html#anwendungsbeispiel---gefährliche-tiere",
+    "href": "index.html#anwendungsbeispiel---gefährliche-tiere",
+    "title": "Neuronale Netze",
+    "section": "Anwendungsbeispiel - gefährliche Tiere!",
+    "text": "Anwendungsbeispiel - gefährliche Tiere!"
+  },
+  {
+    "objectID": "index.html#anwendungsbeispiel",
+    "href": "index.html#anwendungsbeispiel",
+    "title": "Neuronale Netze",
+    "section": "Anwendungsbeispiel",
+    "text": "Anwendungsbeispiel\nGefährliche Tiere"
+  },
+  {
+    "objectID": "index.html#einstufung-nach-augen-und-zähnen",
+    "href": "index.html#einstufung-nach-augen-und-zähnen",
+    "title": "Neuronale Netze",
+    "section": "Einstufung nach Augen und Zähnen",
+    "text": "Einstufung nach Augen und Zähnen\n\n\n\nTier\nZahnlänge\nAugengröße\n\n\n\n\nAlligator\n4\n1\n\n\nTiger\n6\n2\n\n\nSchaf\n2\n2\n\n\nPinguin\n0\n4"
+  },
+  {
+    "objectID": "index.html#umsetzung-im-perzeptron",
+    "href": "index.html#umsetzung-im-perzeptron",
+    "title": "Neuronale Netze",
+    "section": "Umsetzung im Perzeptron",
+    "text": "Umsetzung im Perzeptron"
+  },
+  {
+    "objectID": "index.html#versuch-1",
+    "href": "index.html#versuch-1",
+    "title": "Neuronale Netze",
+    "section": "Versuch 1",
+    "text": "Versuch 1\n\n\nZiel:\nAusgabe 1\nGewichte:\nAm Anfang „raten“\nSchwellenwert:\nam Anfang „raten“"
+  },
+  {
+    "objectID": "index.html#diagramm",
+    "href": "index.html#diagramm",
+    "title": "Neuronale Netze",
+    "section": "Diagramm",
+    "text": "Diagramm"
+  },
+  {
+    "objectID": "index.html#versuch-1-1",
+    "href": "index.html#versuch-1-1",
+    "title": "Neuronale Netze",
+    "section": "Versuch 1",
+    "text": "Versuch 1"
+  },
+  {
+    "objectID": "index.html#versuch-2",
+    "href": "index.html#versuch-2",
+    "title": "Neuronale Netze",
+    "section": "Versuch 2",
+    "text": "Versuch 2"
+  },
+  {
+    "objectID": "index.html#das-perzeptron-muss-lernen",
+    "href": "index.html#das-perzeptron-muss-lernen",
+    "title": "Neuronale Netze",
+    "section": "Das Perzeptron muss lernen!",
+    "text": "Das Perzeptron muss lernen!\n\nBilde „Richtig - Ausgabe“\nBeim Schaf: \\(0 - 1 = -1\\)\nWenn „\\(-1\\)“:\n\\(w_1 = w_1 - x_1\\)\n\\(w_2 = w_2 - x_1\\)\n\\(\\theta = \\theta +1\\)\nWenn „+1“: Alle Rechenzeichen umdrehen.\nNächstes Tier\n… bis es für alle Tiere stimmt!"
+  }
+]

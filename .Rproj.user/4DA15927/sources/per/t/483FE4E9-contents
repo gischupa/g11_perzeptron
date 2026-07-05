@@ -1,0 +1,129 @@
+---
+title: "Neuronale Netze"
+format: revealjs
+editor: visual
+jupyter: python3
+---
+
+## Was ist ein Neuron?
+
+![](bilder/neuronVereinfacht.png)
+
+------------------------------------------------------------------------
+
+### Viele Neuronen
+
+![](bilder/netz.jpg)
+
+------------------------------------------------------------------------
+
+### Vereinfachtes Neuron
+
+![](bilder/neuron1.png)
+
+------------------------------------------------------------------------
+
+### Einfachstes Perzeptron
+
+![](bilder/percy1.png)
+
+------------------------------------------------------------------------
+
+### Werte und Gewichte
+
+![](bilder/percy2.png)
+
+### Aktivierungsfunktion
+
+Das Neuron *feuert* abhängig vom Funktionswert
+
+$$x_1 \cdot w_1 + x_2 \cdot w_1 \geq \theta \qquad \Rightarrow \qquad \text{Ausgabe 1 oder 0}$$
+
+---
+
+## Umsetzung
+
+``` python
+import matplotlib.pyplot as plt
+from random import random
+
+w1 = 3       # Nur Beispielwerte
+w2 = -2
+s = 10
+
+x1 = float(input("x1 eingeben: "))
+x2 = float(input("x2 eingeben: "))
+
+if w1*x1+w2*x2 >= s:
+  plt.scatter(x1,x2, color="green")
+else:
+  plt.scatter(x1,x2, color="red")
+
+plt.show()
+```
+
+---
+
+## Verbesserte Version
+
+``` python
+import matplotlib.pyplot as plt
+from random import random
+
+w1 = 3
+w2 = -2
+s = 0.5
+
+def entscheidung(x1, x2):
+    if w1 * x1 + w2 * x2 > s:
+        return "red"
+    return "green"
+```
+
+---
+
+## Verbesserte Version
+
+``` python
+x = []
+y = []
+farben = []
+```
+
+---
+
+## Verbesserte Version
+
+``` python
+for i in range(1000):
+    x1 = random()  # Zahlen zwischen 0 und 1
+    x2 = random()
+
+    x.append(x1)
+    y.append(x2)
+    farben.append(entscheidung(x1, x2))
+```
+
+## Verbesserte Version
+
+``` python
+plt.scatter(x, y, color=farben)
+plt.grid(True)
+plt.show()
+```
+
+--- 
+
+**Selber Tippen!**
+
+---
+
+## Anwendungsbeispiel
+### Gefährliche Tiere
+![](bilder/croco.jpg){width=50%}
+![](bilder/tiger.jpg){width=40%}
+
+---
+### oder ungefährliche
+![](bilder/maik.jpg){width=45%}
+![](bilder/chami.jpg){width=45%}
