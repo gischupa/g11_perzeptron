@@ -33,6 +33,8 @@ jupyter: python3
 
 ![](bilder/percy2.png)
 
+---
+
 ### Aktivierungsfunktion
 
 Das Neuron *feuert* abhängig vom Funktionswert

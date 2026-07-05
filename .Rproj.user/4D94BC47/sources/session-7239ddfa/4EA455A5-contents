@@ -33,6 +33,8 @@ jupyter: python3
 
 ![](bilder/percy2.png)
 
+---
+
 ### Aktivierungsfunktion
 
 Das Neuron *feuert* abhängig vom Funktionswert
@@ -197,11 +199,3 @@ am Anfang „raten“
 * Wenn „+1“: Alle Rechenzeichen umdrehen.
 * Nächstes Tier
 * ... bis es für alle Tiere stimmt!
-
---- 
-
-## Proberechnen 
-
-Reihenfolge: Schaf, Tiger, Pinguin, Alligator, Schaf
-
-$$x_1=2, 
