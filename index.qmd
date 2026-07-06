@@ -33,7 +33,9 @@ jupyter: python3
 
 ![](bilder/percy2.png)
 
----
+$w_1$ und $w_2$ heißen Gewichte. 
+
+------------------------------------------------------------------------
 
 ### Aktivierungsfunktion
 
@@ -41,7 +43,9 @@ Das Neuron *feuert* abhängig vom Funktionswert
 
 $$x_1 \cdot w_1 + x_2 \cdot w_1 \geq \theta \qquad \Rightarrow \qquad \text{Ausgabe 1 oder 0}$$
 
----
+$\theta$ heißt Schwellenwert.
+
+------------------------------------------------------------------------
 
 ## Umsetzung
 
@@ -64,7 +68,7 @@ else:
 plt.show()
 ```
 
----
+------------------------------------------------------------------------
 
 ## Verbesserte Version
 
@@ -82,7 +86,7 @@ def entscheidung(x1, x2):
     return "green"
 ```
 
----
+------------------------------------------------------------------------
 
 ## Verbesserte Version
 
@@ -92,7 +96,7 @@ y = []
 farben = []
 ```
 
----
+------------------------------------------------------------------------
 
 ## Verbesserte Version
 
@@ -114,70 +118,67 @@ plt.grid(True)
 plt.show()
 ```
 
---- 
+------------------------------------------------------------------------
 
 **Selber Tippen!**
 
----
+------------------------------------------------------------------------
 
 ## Anwendungsbeispiel
-### Gefährliche Tiere
-![](bilder/croco.jpg){width=50%}
-![](bilder/tiger.jpg){width=40%}
 
----
+### Gefährliche Tiere
+
+![](bilder/croco.jpg){width="50%"} ![](bilder/tiger.jpg){width="40%"}
+
+------------------------------------------------------------------------
 
 ### oder ungefährliche
-![](bilder/maik.jpg){width=30%}
-![](bilder/schaf.jpg){width=30%}
-![](bilder/pingu.png){width=30%}
+
+![](bilder/maik.jpg){width="30%"} ![](bilder/schaf.jpg){width="30%"} ![](bilder/pingu.png){width="30%"}
 
 ## Einstufung nach Augen und Zähnen
 
-|Tier|Zahnlänge|Augengröße|
-|----|---------|----------|
-|Alligator|4 | 1|
-|Tiger    |6 | 2|
-|Schaf    |2 |2 |
-|Pinguin  |0 |4 |
+| Tier      | Zahnlänge | Augengröße |
+|-----------|-----------|------------|
+| Alligator | 4         | 1          |
+| Tiger     | 6         | 2          |
+| Schaf     | 2         | 2          |
+| Pinguin   | 0         | 4          |
 
----
+------------------------------------------------------------------------
 
 # Eintragen in ein Koodinatensystem
 
-* waagrecht Zahnlänge
-* senkrecht Augengröße
+-   waagrecht Zahnlänge
+-   senkrecht Augengröße
 
 Zeichne eine mögliche Trenngerade ein.
 
----
+------------------------------------------------------------------------
 
 ## Diagramm
 
 ![](bilder/linear1.png)
 
----
+------------------------------------------------------------------------
 
 ## Umsetzung im Perzeptron
 
 ![](bilder/augen1.png)
 
-
 ## Versuch 1
 
 ![](bilder/augen2.png)
 
-:::{.absolute top="50px" left="80%"}
-**Ziel:**  
-Ausgabe 1  
+::: {.absolute top="50px" left="80%"}
+**Ziel:**\
+Ausgabe 1
 
+**Gewichte:**\
+Am Anfang „raten“
 
-**Gewichte:**  
-Am Anfang „raten“    
-
-
-**Schwellenwert:**  
-am Anfang „raten“   
+**Schwellenwert:**\
+am Anfang „raten“
 :::
 
 ## Versuch 1
@@ -190,12 +191,12 @@ am Anfang „raten“
 
 ## Das Perzeptron muss lernen!
 
-* Bilde „Richtig - Ausgabe“   
-  Beim Schaf: $0 - 1 = -1$
-* Wenn „$-1$“:  
-  $w_1 = w_1 - x_1$   
-  $w_2 = w_2 - x_1$   
-  $\theta = \theta +1$ 
-* Wenn „+1“: Alle Rechenzeichen umdrehen.
-* Nächstes Tier
-* ... bis es für alle Tiere stimmt!
+-   Bilde „Richtig - Ausgabe“\
+    Beim Schaf: $0 - 1 = -1$
+-   Wenn „$-1$“:\
+    $w_1 = w_1 - x_1$\
+    $w_2 = w_2 - x_1$\
+    $\theta = \theta +1$
+-   Wenn „+1“: Alle Rechenzeichen umdrehen.
+-   Nächstes Tier
+-   ... bis es für alle Tiere stimmt!

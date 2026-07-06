@@ -131,5 +131,12 @@
     "title": "Daten",
     "section": "",
     "text": "Zeichne nachfolgende Tabelle als Punktewolke (=Scatter-Plot)\n\n\n\n\n\n\n\nDie Punktehaufen sind durch eine Gerade trennbar.\n. . .\nErinnerung:\n\\[y = m \\cdot x + t\\]\n\n\n\nPunkte über der Geraden gehören zu Menge 1\nPunkte darunter zu Menge 2"
+  },
+  {
+    "objectID": "index.html#theta-heißt-schwellenwert.",
+    "href": "index.html#theta-heißt-schwellenwert.",
+    "title": "Neuronale Netze",
+    "section": "\\(\\theta\\) heißt Schwellenwert.",
+    "text": "\\(\\theta\\) heißt Schwellenwert."
   }
 ]
