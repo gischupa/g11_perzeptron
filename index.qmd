@@ -41,7 +41,7 @@ $w_1$ und $w_2$ heißen Gewichte.
 
 Das Neuron *feuert* abhängig vom Funktionswert
 
-$$x_1 \cdot w_1 + x_2 \cdot w_1 \geq \theta \qquad \Rightarrow \qquad \text{Ausgabe 1 oder 0}$$
+$$x_1 \cdot w_1 + x_2 \cdot w_2 \geq \theta \qquad \Rightarrow \qquad \text{Ausgabe 1 oder 0}$$
 
 $\theta$ heißt Schwellenwert.
 
@@ -138,12 +138,12 @@ plt.show()
 
 ## Einstufung nach Augen und Zähnen
 
-| Tier      | Zahnlänge | Augengröße |
-|-----------|-----------|------------|
-| Alligator | 4         | 1          |
-| Tiger     | 6         | 2          |
-| Schaf     | 2         | 2          |
-| Pinguin   | 0         | 4          |
+| Tier      | Zahnlänge | Augengröße | Gefahr |
+|-----------|:---------:|:----------:|:------:|
+| Alligator | 4         | 1          |1       |
+| Tiger     | 6         | 2          |1       |
+| Schaf     | 2         | 2          |0       |
+| Pinguin   | 0         | 4          |0       |
 
 ------------------------------------------------------------------------
 
@@ -189,7 +189,97 @@ am Anfang „raten“
 
 ![](bilder/augen4.png)
 
-## Das Perzeptron muss lernen!
+---
+
+## Reaktion des Perzeptron
+
+:::{.absolute top="50pt" left="400pt"}
+![](bilder/kein_lernen_1.png)
+:::
+
+. . .
+
+Kein Lernen nötig
+
+---
+
+## Reaktion des Perzeptron
+
+:::{.absolute top="50pt" left="400pt"}
+![](bilder/kein_lernen_2.png)
+:::
+
+. . .
+
+Kein Lernen nötig
+
+--- 
+
+## Reaktion des Perzeptron
+
+:::{.absolute top="50pt" left="400pt"}
+![](bilder/lernen_unten_1.png)
+:::
+
+---
+
+## Reaktion des Perzeptron
+
+:::{.absolute top="50pt" left="400pt"}
+![](bilder/lernen_unten_1a.png)
+:::
+
+Anheben Schwellenwert  
+
+---
+
+## Reaktion des Perzeptron
+
+:::{.absolute top="50pt" left="400pt"}
+![](bilder/lernen_unten_1b.png)
+:::
+
+Anheben Schwellenwert  
+Summe verkleinern  
+(Gewichte verkleinern)
+
+
+--- 
+
+## Reaktion des Perzeptron
+
+:::{.absolute top="50pt" left="400pt"}
+![](bilder/lernen_oben_1.png)
+:::
+
+---
+
+## Reaktion des Perzeptron
+
+:::{.absolute top="50pt" left="400pt"}
+![](bilder/lernen_oben_1a.png)
+:::
+
+Absenken Schwellenwert  
+
+---
+
+## Reaktion des Perzeptron
+
+:::{.absolute top="50pt" left="400pt"}
+![](bilder/lernen_oben_1b.png)
+:::
+
+Anheben Schwellenwert  
+Summe vergrößern  
+(Gewichte vergrößern)
+
+
+
+
+---
+
+## Angewendet ...
 
 -   Bilde „Richtig - Ausgabe“\
     Beim Schaf: $0 - 1 = -1$
@@ -200,3 +290,7 @@ am Anfang „raten“
 -   Wenn „+1“: Alle Rechenzeichen umdrehen.
 -   Nächstes Tier
 -   ... bis es für alle Tiere stimmt!
+
+---
+
+## Ausführen per Hand

@@ -53,7 +53,7 @@
     "href": "index.html#einstufung-nach-augen-und-zähnen",
     "title": "Neuronale Netze",
     "section": "Einstufung nach Augen und Zähnen",
-    "text": "Einstufung nach Augen und Zähnen\n\n\n\nTier\nZahnlänge\nAugengröße\n\n\n\n\nAlligator\n4\n1\n\n\nTiger\n6\n2\n\n\nSchaf\n2\n2\n\n\nPinguin\n0\n4"
+    "text": "Einstufung nach Augen und Zähnen\n\n\n\nTier\nZahnlänge\nAugengröße\nGefahr\n\n\n\n\nAlligator\n4\n1\n1\n\n\nTiger\n6\n2\n1\n\n\nSchaf\n2\n2\n0\n\n\nPinguin\n0\n4\n0"
   },
   {
     "objectID": "index.html#diagramm",
@@ -138,5 +138,82 @@
     "title": "Neuronale Netze",
     "section": "\\(\\theta\\) heißt Schwellenwert.",
     "text": "\\(\\theta\\) heißt Schwellenwert."
+  },
+  {
+    "objectID": "index.html#das-perzeptron-muss-lernen-1",
+    "href": "index.html#das-perzeptron-muss-lernen-1",
+    "title": "Neuronale Netze",
+    "section": "Das Perzeptron muss lernen!",
+    "text": "Das Perzeptron muss lernen!\n\nBilde „Richtig - Ausgabe“\nBeim Schaf: \\(0 - 1 = -1\\)\nWenn „\\(-1\\)“:\n\\(w_1 = w_1 - x_1\\)\n\\(w_2 = w_2 - x_1\\)\n\\(\\theta = \\theta +1\\)\nWenn „+1“: Alle Rechenzeichen umdrehen.\nNächstes Tier\n… bis es für alle Tiere stimmt!"
+  },
+  {
+    "objectID": "index.html#reaktion-des-perzeptron",
+    "href": "index.html#reaktion-des-perzeptron",
+    "title": "Neuronale Netze",
+    "section": "Reaktion des Perzeptron",
+    "text": "Reaktion des Perzeptron\n\n\n\n\nKein Lernen nötig"
+  },
+  {
+    "objectID": "index.html#reaktion-des-perzeptron-1",
+    "href": "index.html#reaktion-des-perzeptron-1",
+    "title": "Neuronale Netze",
+    "section": "Reaktion des Perzeptron",
+    "text": "Reaktion des Perzeptron\n\n\n\n\nKein Lernen nötig"
+  },
+  {
+    "objectID": "index.html#reaktion-des-perzeptron-2",
+    "href": "index.html#reaktion-des-perzeptron-2",
+    "title": "Neuronale Netze",
+    "section": "Reaktion des Perzeptron",
+    "text": "Reaktion des Perzeptron"
+  },
+  {
+    "objectID": "index.html#reaktion-des-perzeptron-3",
+    "href": "index.html#reaktion-des-perzeptron-3",
+    "title": "Neuronale Netze",
+    "section": "Reaktion des Perzeptron",
+    "text": "Reaktion des Perzeptron\n\n\n\nAnheben Schwellenwert"
+  },
+  {
+    "objectID": "index.html#reaktion-des-perzeptron-4",
+    "href": "index.html#reaktion-des-perzeptron-4",
+    "title": "Neuronale Netze",
+    "section": "Reaktion des Perzeptron",
+    "text": "Reaktion des Perzeptron\n\n\n\nAnheben Schwellenwert\nSumme verkleinern\n(Gewichte verkleinern)"
+  },
+  {
+    "objectID": "index.html#reaktion-des-perzeptron-5",
+    "href": "index.html#reaktion-des-perzeptron-5",
+    "title": "Neuronale Netze",
+    "section": "Reaktion des Perzeptron",
+    "text": "Reaktion des Perzeptron"
+  },
+  {
+    "objectID": "index.html#reaktion-des-perzeptron-6",
+    "href": "index.html#reaktion-des-perzeptron-6",
+    "title": "Neuronale Netze",
+    "section": "Reaktion des Perzeptron",
+    "text": "Reaktion des Perzeptron\n\n\n\nAbsenken Schwellenwert"
+  },
+  {
+    "objectID": "index.html#reaktion-des-perzeptron-7",
+    "href": "index.html#reaktion-des-perzeptron-7",
+    "title": "Neuronale Netze",
+    "section": "Reaktion des Perzeptron",
+    "text": "Reaktion des Perzeptron\n\n\n\nAnheben Schwellenwert\nSumme vergrößern\n(Gewichte vergrößern)"
+  },
+  {
+    "objectID": "index.html#angewendet",
+    "href": "index.html#angewendet",
+    "title": "Neuronale Netze",
+    "section": "Angewendet …",
+    "text": "Angewendet …\n\nBilde „Richtig - Ausgabe“\nBeim Schaf: \\(0 - 1 = -1\\)\nWenn „\\(-1\\)“:\n\\(w_1 = w_1 - x_1\\)\n\\(w_2 = w_2 - x_1\\)\n\\(\\theta = \\theta +1\\)\nWenn „+1“: Alle Rechenzeichen umdrehen.\nNächstes Tier\n… bis es für alle Tiere stimmt!"
+  },
+  {
+    "objectID": "index.html#ausführen-per-hand",
+    "href": "index.html#ausführen-per-hand",
+    "title": "Neuronale Netze",
+    "section": "Ausführen per Hand",
+    "text": "Ausführen per Hand"
   }
 ]

@@ -1,0 +1,14 @@
+﻿\begin{tikzpicture}
+
+\draw[fill](0,0) rectangle ++(3,0.1) node[right]{\scriptsize Schwellenwert};
+\draw[rounded corners, fill=green!50!black, opacity=0.5](0,0) rectangle ++(3,-1) ;
+\draw[rounded corners, fill=red!50!black, opacity=0.5](0,0.1) rectangle ++(3,1) ;
+
+\draw(1.5, 0.5) node[scale=2]{$\sum$};
+
+\draw(1.5,1.5) node[scale=1.5, color=green!50!black]{Erwartet};
+
+\draw[](0.5,0.3) node[scale=1.5, rotate=90, yellow]{$\Rightarrow$};
+\draw[](1.5,-0) node[scale=1.5, rotate=-90, yellow]{$\Rightarrow$};
+
+\end{tikzpicture}
