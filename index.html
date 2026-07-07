@@ -230,7 +230,7 @@
 
 <h3 id="aktivierungsfunktion">Aktivierungsfunktion</h3>
 <p>Das Neuron <em>feuert</em> abhängig vom Funktionswert</p>
-<p><span class="math display">\[x_1 \cdot w_1 + x_2 \cdot w_1 \geq \theta \qquad \Rightarrow \qquad \text{Ausgabe 1 oder 0}\]</span></p>
+<p><span class="math display">\[x_1 \cdot w_1 + x_2 \cdot w_2 \geq \theta \qquad \Rightarrow \qquad \text{Ausgabe 1 oder 0}\]</span></p>
 <p><span class="math inline">\(\theta\)</span> heißt Schwellenwert.</p>
 </section>
 <section id="umsetzung" class="slide level2">
@@ -308,30 +308,35 @@
 <thead>
 <tr class="header">
 <th>Tier</th>
-<th>Zahnlänge</th>
-<th>Augengröße</th>
+<th style="text-align: center;">Zahnlänge</th>
+<th style="text-align: center;">Augengröße</th>
+<th style="text-align: center;">Gefahr</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Alligator</td>
-<td>4</td>
-<td>1</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
 </tr>
 <tr class="even">
 <td>Tiger</td>
-<td>6</td>
-<td>2</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
 </tr>
 <tr class="odd">
 <td>Schaf</td>
-<td>2</td>
-<td>2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0</td>
 </tr>
 <tr class="even">
 <td>Pinguin</td>
-<td>0</td>
-<td>4</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">0</td>
 </tr>
 </tbody>
 </table>
@@ -376,8 +381,70 @@ am Anfang „raten“</p>
 <h2>Versuch 2</h2>
 
 <img data-src="bilder/augen4.png" class="r-stretch"></section>
-<section id="das-perzeptron-muss-lernen" class="slide level2">
-<h2>Das Perzeptron muss lernen!</h2>
+<section id="reaktion-des-perzeptron" class="slide level2">
+<h2>Reaktion des Perzeptron</h2>
+<div class="absolute" style="top: 50pt; left: 400pt; ">
+<p><img data-src="bilder/kein_lernen_1.png"></p>
+</div>
+<div class="fragment">
+<p>Kein Lernen nötig</p>
+</div>
+</section>
+<section id="reaktion-des-perzeptron-1" class="slide level2">
+<h2>Reaktion des Perzeptron</h2>
+<div class="absolute" style="top: 50pt; left: 400pt; ">
+<p><img data-src="bilder/kein_lernen_2.png"></p>
+</div>
+<div class="fragment">
+<p>Kein Lernen nötig</p>
+</div>
+</section>
+<section id="reaktion-des-perzeptron-2" class="slide level2">
+<h2>Reaktion des Perzeptron</h2>
+<div class="absolute" style="top: 50pt; left: 400pt; ">
+<p><img data-src="bilder/lernen_unten_1.png"></p>
+</div>
+</section>
+<section id="reaktion-des-perzeptron-3" class="slide level2">
+<h2>Reaktion des Perzeptron</h2>
+<div class="absolute" style="top: 50pt; left: 400pt; ">
+<p><img data-src="bilder/lernen_unten_1a.png"></p>
+</div>
+<p>Anheben Schwellenwert</p>
+</section>
+<section id="reaktion-des-perzeptron-4" class="slide level2">
+<h2>Reaktion des Perzeptron</h2>
+<div class="absolute" style="top: 50pt; left: 400pt; ">
+<p><img data-src="bilder/lernen_unten_1b.png"></p>
+</div>
+<p>Anheben Schwellenwert<br>
+Summe verkleinern<br>
+(Gewichte verkleinern)</p>
+</section>
+<section id="reaktion-des-perzeptron-5" class="slide level2">
+<h2>Reaktion des Perzeptron</h2>
+<div class="absolute" style="top: 50pt; left: 400pt; ">
+<p><img data-src="bilder/lernen_oben_1.png"></p>
+</div>
+</section>
+<section id="reaktion-des-perzeptron-6" class="slide level2">
+<h2>Reaktion des Perzeptron</h2>
+<div class="absolute" style="top: 50pt; left: 400pt; ">
+<p><img data-src="bilder/lernen_oben_1a.png"></p>
+</div>
+<p>Absenken Schwellenwert</p>
+</section>
+<section id="reaktion-des-perzeptron-7" class="slide level2">
+<h2>Reaktion des Perzeptron</h2>
+<div class="absolute" style="top: 50pt; left: 400pt; ">
+<p><img data-src="bilder/lernen_oben_1b.png"></p>
+</div>
+<p>Anheben Schwellenwert<br>
+Summe vergrößern<br>
+(Gewichte vergrößern)</p>
+</section>
+<section id="angewendet" class="slide level2">
+<h2>Angewendet …</h2>
 <ul>
 <li>Bilde „Richtig - Ausgabe“<br>
 Beim Schaf: <span class="math inline">\(0 - 1 = -1\)</span></li>
@@ -389,6 +456,9 @@ Beim Schaf: <span class="math inline">\(0 - 1 = -1\)</span></li>
 <li>Nächstes Tier</li>
 <li>… bis es für alle Tiere stimmt!</li>
 </ul>
+</section>
+<section id="ausführen-per-hand" class="slide level2">
+<h2>Ausführen per Hand</h2>
 
 
 </section></section>
