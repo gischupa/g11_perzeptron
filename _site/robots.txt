@@ -1,0 +1,1 @@
+Sitemap: https://gischupa.github.io/g11_perzeptron/sitemap.xml
