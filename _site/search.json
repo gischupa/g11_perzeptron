@@ -91,62 +91,6 @@
     "text": "Versuch 2"
   },
   {
-    "objectID": "index.html#das-perzeptron-muss-lernen",
-    "href": "index.html#das-perzeptron-muss-lernen",
-    "title": "Neuronale Netze",
-    "section": "Das Perzeptron muss lernen!",
-    "text": "Das Perzeptron muss lernen!\n\nBilde „Richtig - Ausgabe“\nBeim Schaf: \\(0 - 1 = -1\\)\nWenn „\\(-1\\)“:\n\\(w_1 = w_1 - x_1\\)\n\\(w_2 = w_2 - x_1\\)\n\\(\\theta = \\theta +1\\)\nWenn „+1“: Alle Rechenzeichen umdrehen.\nNächstes Tier\n… bis es für alle Tiere stimmt!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n2"
-  },
-  {
-    "objectID": "001_daten.html",
-    "href": "001_daten.html",
-    "title": "Daten",
-    "section": "",
-    "text": "Die Trainingsdaten für KI können meist als Tabellen dargestellt werden.\nDie Tabellenspalten sind die Attribute der zu lernenden Inhalte (Attribut = Eigenschaft)\nDie Anzahl der Spalten kann sehr große Werte annehmen (100000+).\n\n\n\n\n\nWir verwenden 2 Spalten für Daten und eine als Label\n. . .\n2 Spalten = Punkt / Vektor in der Ebene\n3 Spalten = Punkt / Vektor im Raum\n4 Spalten bereits nicht mehr vorstellbar!\n\n\n\n\nZeichne nachfolgende Tabelle als Punktewolke (=Scatter-Plot)\n\n\n\n\n\n\n\nDie Punktehaufen sind durch eine Gerade trennbar.\n. . .\nErinnerung:\n\\[y = m \\cdot x + t\\]\n\n\n\nPunkte über der Geraden gehören zu Menge 1\nPunkte darunter zu Menge 2"
-  },
-  {
-    "objectID": "001_daten.html#eigenschaften-der-daten",
-    "href": "001_daten.html#eigenschaften-der-daten",
-    "title": "Daten",
-    "section": "",
-    "text": "Die Trainingsdaten für KI können meist als Tabellen dargestellt werden.\nDie Tabellenspalten sind die Attribute der zu lernenden Inhalte (Attribut = Eigenschaft)\nDie Anzahl der Spalten kann sehr große Werte annehmen (100000+)."
-  },
-  {
-    "objectID": "001_daten.html#unsere-analyse",
-    "href": "001_daten.html#unsere-analyse",
-    "title": "Daten",
-    "section": "",
-    "text": "Wir verwenden 2 Spalten für Daten und eine als Label\n. . .\n2 Spalten = Punkt / Vektor in der Ebene\n3 Spalten = Punkt / Vektor im Raum\n4 Spalten bereits nicht mehr vorstellbar!"
-  },
-  {
-    "objectID": "001_daten.html#aufgabe",
-    "href": "001_daten.html#aufgabe",
-    "title": "Daten",
-    "section": "",
-    "text": "Zeichne nachfolgende Tabelle als Punktewolke (=Scatter-Plot)\n\n\n\n\n\n\n\nDie Punktehaufen sind durch eine Gerade trennbar.\n. . .\nErinnerung:\n\\[y = m \\cdot x + t\\]\n\n\n\nPunkte über der Geraden gehören zu Menge 1\nPunkte darunter zu Menge 2"
-  },
-  {
-    "objectID": "index.html#theta-heißt-schwellenwert.",
-    "href": "index.html#theta-heißt-schwellenwert.",
-    "title": "Neuronale Netze",
-    "section": "\\(\\theta\\) heißt Schwellenwert.",
-    "text": "\\(\\theta\\) heißt Schwellenwert."
-  },
-  {
-    "objectID": "index.html#das-perzeptron-muss-lernen-1",
-    "href": "index.html#das-perzeptron-muss-lernen-1",
-    "title": "Neuronale Netze",
-    "section": "Das Perzeptron muss lernen!",
-    "text": "Das Perzeptron muss lernen!\n\nBilde „Richtig - Ausgabe“\nBeim Schaf: \\(0 - 1 = -1\\)\nWenn „\\(-1\\)“:\n\\(w_1 = w_1 - x_1\\)\n\\(w_2 = w_2 - x_1\\)\n\\(\\theta = \\theta +1\\)\nWenn „+1“: Alle Rechenzeichen umdrehen.\nNächstes Tier\n… bis es für alle Tiere stimmt!"
-  },
-  {
     "objectID": "index.html#reaktion-des-perzeptron",
     "href": "index.html#reaktion-des-perzeptron",
     "title": "Neuronale Netze",
@@ -215,5 +159,40 @@
     "title": "Neuronale Netze",
     "section": "Ausführen per Hand",
     "text": "Ausführen per Hand"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n2"
+  },
+  {
+    "objectID": "001_daten.html",
+    "href": "001_daten.html",
+    "title": "Daten",
+    "section": "",
+    "text": "Die Trainingsdaten für KI können meist als Tabellen dargestellt werden.\nDie Tabellenspalten sind die Attribute der zu lernenden Inhalte (Attribut = Eigenschaft)\nDie Anzahl der Spalten kann sehr große Werte annehmen (100000+).\n\n\n\n\n\nWir verwenden 2 Spalten für Daten und eine als Label\n. . .\n2 Spalten = Punkt / Vektor in der Ebene\n3 Spalten = Punkt / Vektor im Raum\n4 Spalten bereits nicht mehr vorstellbar!\n\n\n\n\nZeichne nachfolgende Tabelle als Punktewolke (=Scatter-Plot)\n\n\n\n\n\n\n\nDie Punktehaufen sind durch eine Gerade trennbar.\n. . .\nErinnerung:\n\\[y = m \\cdot x + t\\]\n\n\n\nPunkte über der Geraden gehören zu Menge 1\nPunkte darunter zu Menge 2"
+  },
+  {
+    "objectID": "001_daten.html#eigenschaften-der-daten",
+    "href": "001_daten.html#eigenschaften-der-daten",
+    "title": "Daten",
+    "section": "",
+    "text": "Die Trainingsdaten für KI können meist als Tabellen dargestellt werden.\nDie Tabellenspalten sind die Attribute der zu lernenden Inhalte (Attribut = Eigenschaft)\nDie Anzahl der Spalten kann sehr große Werte annehmen (100000+)."
+  },
+  {
+    "objectID": "001_daten.html#unsere-analyse",
+    "href": "001_daten.html#unsere-analyse",
+    "title": "Daten",
+    "section": "",
+    "text": "Wir verwenden 2 Spalten für Daten und eine als Label\n. . .\n2 Spalten = Punkt / Vektor in der Ebene\n3 Spalten = Punkt / Vektor im Raum\n4 Spalten bereits nicht mehr vorstellbar!"
+  },
+  {
+    "objectID": "001_daten.html#aufgabe",
+    "href": "001_daten.html#aufgabe",
+    "title": "Daten",
+    "section": "",
+    "text": "Zeichne nachfolgende Tabelle als Punktewolke (=Scatter-Plot)\n\n\n\n\n\n\n\nDie Punktehaufen sind durch eine Gerade trennbar.\n. . .\nErinnerung:\n\\[y = m \\cdot x + t\\]\n\n\n\nPunkte über der Geraden gehören zu Menge 1\nPunkte darunter zu Menge 2"
   }
 ]

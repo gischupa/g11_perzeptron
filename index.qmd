@@ -147,7 +147,7 @@ plt.show()
 
 ------------------------------------------------------------------------
 
-# Eintragen in ein Koodinatensystem
+# Eintragen in ein Koordinatensystem
 
 -   waagrecht Zahnlänge
 -   senkrecht Augengröße
