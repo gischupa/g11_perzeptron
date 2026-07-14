@@ -151,7 +151,7 @@
     "href": "index.html#angewendet",
     "title": "Neuronale Netze",
     "section": "Angewendet …",
-    "text": "Angewendet …\n\nBilde „Richtig - Ausgabe“\nBeim Schaf: \\(0 - 1 = -1\\)\nWenn „\\(-1\\)“:\n\\(w_1 = w_1 - x_1\\)\n\\(w_2 = w_2 - x_1\\)\n\\(\\theta = \\theta +1\\)\nWenn „+1“: Alle Rechenzeichen umdrehen.\nNächstes Tier\n… bis es für alle Tiere stimmt!"
+    "text": "Angewendet …\n\nBilde „Richtig - Ausgabe“\nBeim Schaf: \\(0 - 1 = -1\\)\nWenn „\\(-1\\)“:\n\\(w_1 = w_1 - x_1\\)\n\\(w_2 = w_2 - x_2\\)\n\\(\\theta = \\theta +1\\)\nWenn „+1“: Alle Rechenzeichen umdrehen.\nNächstes Tier\n… bis es für alle Tiere stimmt!"
   },
   {
     "objectID": "index.html#ausführen-per-hand",
@@ -159,6 +159,13 @@
     "title": "Neuronale Netze",
     "section": "Ausführen per Hand",
     "text": "Ausführen per Hand"
+  },
+  {
+    "objectID": "index.html#k-nächste-nachbarn",
+    "href": "index.html#k-nächste-nachbarn",
+    "title": "Neuronale Netze",
+    "section": "K nächste Nachbarn",
+    "text": "K nächste Nachbarn"
   },
   {
     "objectID": "about.html",
