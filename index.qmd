@@ -33,7 +33,7 @@ jupyter: python3
 
 ![](bilder/percy2.png)
 
-$w_1$ und $w_2$ heißen Gewichte. 
+$w_1$ und $w_2$ heißen Gewichte.
 
 ------------------------------------------------------------------------
 
@@ -140,17 +140,17 @@ plt.show()
 
 | Tier      | Zahnlänge | Augengröße | Gefahr |
 |-----------|:---------:|:----------:|:------:|
-| Alligator | 4         | 1          |1       |
-| Tiger     | 6         | 2          |1       |
-| Schaf     | 2         | 2          |0       |
-| Pinguin   | 0         | 4          |0       |
+| Alligator |     4     |     1      |   1    |
+| Tiger     |     6     |     2      |   1    |
+| Schaf     |     2     |     2      |   0    |
+| Pinguin   |     0     |     4      |   0    |
 
 ------------------------------------------------------------------------
 
 # Eintragen in ein Koordinatensystem
 
--   waagrecht Zahnlänge
--   senkrecht Augengröße
+- waagrecht Zahnlänge
+- senkrecht Augengröße
 
 Zeichne eine mögliche Trenngerade ein.
 
@@ -189,11 +189,11 @@ am Anfang „raten“
 
 ![](bilder/augen4.png)
 
----
+------------------------------------------------------------------------
 
 ## Reaktion des Perzeptron
 
-:::{.absolute top="50pt" left="400pt"}
+::: {.absolute top="50pt" left="400pt"}
 ![](bilder/kein_lernen_1.png)
 :::
 
@@ -201,11 +201,11 @@ am Anfang „raten“
 
 Kein Lernen nötig
 
----
+------------------------------------------------------------------------
 
 ## Reaktion des Perzeptron
 
-:::{.absolute top="50pt" left="400pt"}
+::: {.absolute top="50pt" left="400pt"}
 ![](bilder/kein_lernen_2.png)
 :::
 
@@ -213,84 +213,92 @@ Kein Lernen nötig
 
 Kein Lernen nötig
 
---- 
+------------------------------------------------------------------------
 
 ## Reaktion des Perzeptron
 
-:::{.absolute top="50pt" left="400pt"}
+::: {.absolute top="50pt" left="400pt"}
 ![](bilder/lernen_unten_1.png)
 :::
 
----
+------------------------------------------------------------------------
 
 ## Reaktion des Perzeptron
 
-:::{.absolute top="50pt" left="400pt"}
+::: {.absolute top="50pt" left="400pt"}
 ![](bilder/lernen_unten_1a.png)
 :::
 
-Anheben Schwellenwert  
+Anheben Schwellenwert
 
----
+------------------------------------------------------------------------
 
 ## Reaktion des Perzeptron
 
-:::{.absolute top="50pt" left="400pt"}
+::: {.absolute top="50pt" left="400pt"}
 ![](bilder/lernen_unten_1b.png)
 :::
 
-Anheben Schwellenwert  
-Summe verkleinern  
+Anheben Schwellenwert\
+Summe verkleinern\
 (Gewichte verkleinern)
 
-
---- 
+------------------------------------------------------------------------
 
 ## Reaktion des Perzeptron
 
-:::{.absolute top="50pt" left="400pt"}
+::: {.absolute top="50pt" left="400pt"}
 ![](bilder/lernen_oben_1.png)
 :::
 
----
+------------------------------------------------------------------------
 
 ## Reaktion des Perzeptron
 
-:::{.absolute top="50pt" left="400pt"}
+::: {.absolute top="50pt" left="400pt"}
 ![](bilder/lernen_oben_1a.png)
 :::
 
-Absenken Schwellenwert  
+Absenken Schwellenwert
 
----
+------------------------------------------------------------------------
 
 ## Reaktion des Perzeptron
 
-:::{.absolute top="50pt" left="400pt"}
+::: {.absolute top="50pt" left="400pt"}
 ![](bilder/lernen_oben_1b.png)
 :::
 
-Anheben Schwellenwert  
-Summe vergrößern  
+Anheben Schwellenwert\
+Summe vergrößern\
 (Gewichte vergrößern)
 
-
-
-
----
+------------------------------------------------------------------------
 
 ## Angewendet ...
 
--   Bilde „Richtig - Ausgabe“\
-    Beim Schaf: $0 - 1 = -1$
--   Wenn „$-1$“:\
-    $w_1 = w_1 - x_1$\
-    $w_2 = w_2 - x_1$\
-    $\theta = \theta +1$
--   Wenn „+1“: Alle Rechenzeichen umdrehen.
--   Nächstes Tier
--   ... bis es für alle Tiere stimmt!
+- Bilde „Richtig - Ausgabe“\
+  Beim Schaf: $0 - 1 = -1$
+- Wenn „$-1$“:\
+  $w_1 = w_1 - x_1$\
+  $w_2 = w_2 - x_2$\
+  $\theta = \theta +1$
+- Wenn „+1“: Alle Rechenzeichen umdrehen.
+- Nächstes Tier
+- ... bis es für alle Tiere stimmt!
+
+------------------------------------------------------------------------
+
+## Ausführen per Hand
+
 
 ---
 
-## Ausführen per Hand
+## K nächste Nachbarn
+
+---
+
+**Algorithmus zum Klassifizieren über Entfernung**  
+
+![](bilder/knn1.png)
+
